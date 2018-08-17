@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class FunctionMisssion {
 
 	static void printGugudan(int x) {
-		for (int i = 2; i <= x; i++) {
-			for (int j = 1; j < 10; j++) {
-				System.out.printf("%d * %d = %d\n", i, j, i * j);
+		for (int i = 1; i < 10; i++) {
+			for (int j = 2; j <= x; j++) {
+				System.out.printf("%d * %d = %d\t", j, i, i * j);
 			}
 			System.out.println();	
 		}
