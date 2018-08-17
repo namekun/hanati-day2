@@ -665,7 +665,7 @@ public class FunctionExample {
 	// JVM에 의해 최초 실행되는 엔트리포인트 main() 함수
 	public static void main(String[] args) {
 		// 함수 사용(호출)
-		printMessage("kalid", "one more"); // 반환값 없음
+		printMessage("kalid", "another one"); // 반환값 없음
 		int result = sum(30, 50); // 반환값 있음
 		System.out.println(result);
 	}
@@ -676,7 +676,7 @@ public class FunctionExample {
 *결과물*
 
 ```console
-[kalid] : one more
+[kalid] : another one
 100
 ```
 
